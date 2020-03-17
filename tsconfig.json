@@ -1,29 +1,19 @@
 {
     "compilerOptions": {
-        "sourceMap": true,
-        "inlineSources": true,
-        "noImplicitAny": false,
-        "module": "ES2015",
-        "moduleResolution": "Node",
-        "target": "ES2015",
-        "jsx": "react",
-        "alwaysStrict": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "allowSyntheticDefaultImports": true,
-        "importHelpers": true,
-        "noEmitHelpers": true,
-        "forceConsistentCasingInFileNames": true,
-        "noEmitOnError": true,
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es2017", "es7", "es6", "dom"],
         "declaration": true,
-        "declarationDir": "types",
-        "outDir": "dist-esm",
-        "rootDir": "src"
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true
     },
     "include": [
       "./src/**/*.ts"
     ],
     "exclude": [
       "node_modules",
+      "dist",
       ".npm"
     ]
 }
