@@ -7,9 +7,7 @@
       "ts",
       "tsx",
       "js",
-      "jsx",
-      "json",
-      "node"
+      "jsx"
     ],
     "testPathIgnorePatterns": [
       "node_modules",

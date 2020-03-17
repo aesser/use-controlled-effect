@@ -6,7 +6,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc",
-    "test": "npx jest --config test/jsconfig.json"
+    "test": "npx jest --config test/jsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -29,9 +31,15 @@
     "@types/jest": "^25.1.4",
     "@types/react": "^16.9.23",
     "jest": "^25.1.0",
+    "prettier": "^1.19.1",
     "react-test-renderer": "^16.13.0",
     "ts-jest": "^25.2.1",
     "tslib": "^1.11.1",
+    "tslint": "^6.1.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.0"
   }
 }
