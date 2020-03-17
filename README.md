@@ -4,7 +4,7 @@ Parts of this code is based on [use-debounced-effect](https://github.com/samanmo
 
 You can install it using 
 ```
-npm i useControlledEffect
+npm i use-controlled-effect
 ```
 
 Dummy TS code example:

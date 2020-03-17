@@ -1,6 +1,6 @@
 {
   "name": "use-controlled-effect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allow to debounce effect or use it immediately",
   "main": "dist-esm/useControlledEffect.js",
   "scripts": {
