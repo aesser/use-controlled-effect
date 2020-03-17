@@ -1,8 +1,10 @@
 {
   "name": "use-controlled-effect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allow to debounce effect or use it immediately",
-  "main": "dist-esm/useControlledEffect.js",
+  "main": "dist/useControlledEffect.js",
+  "module": "dist-esm/applicationinsights-react-js.js",
+  "types": "types/applicationinsights-react-js.d.ts",
   "scripts": {
     "build": "npx tsc",
     "test": "npx jest --config test/jsconfig.json"
