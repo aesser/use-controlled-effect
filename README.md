@@ -9,7 +9,7 @@ npm i use-controlled-effect
 
 Dummy TS code example:
 ```
-import useControlledEffect from 'useControlledEffect';
+import useControlledEffect from 'use-controlled-effect';
 import api from '...';
 
 interface IMyComponentProps {

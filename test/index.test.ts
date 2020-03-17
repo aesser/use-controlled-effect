@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react-hooks';
-import useControlledEffect from '../src/useControlledEffect';
+import useControlledEffect from '../src';
 
 describe('useControlledEffect', () => {
     it('should run once when it should run immediately', () => {
