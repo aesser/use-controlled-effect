@@ -1,6 +1,6 @@
 {
   "name": "use-controlled-effect",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Allow to debounce effect or use it immediately",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,9 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aesser/use-controlled-effect.git"
@@ -40,7 +42,5 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
   },
-  "dependencies": {
-    "react": "^16.13.0"
-  }
+  "dependencies": {}
 }
