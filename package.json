@@ -1,0 +1,39 @@
+{
+  "name": "use-controlled-effect",
+  "version": "1.0.0",
+  "description": "Allow to debounce effect or use it immediately",
+  "main": "dist-esm/useControlledEffect.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx jest --config test/jsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesser/use-controlled-effect.git"
+  },
+  "keywords": [
+    "react",
+    "react-effect",
+    "react-hook",
+    "use-debounced-effect"
+  ],
+  "author": "Alexander Esser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aesser/use-controlled-effect/issues"
+  },
+  "homepage": "https://github.com/aesser/use-controlled-effect#readme",
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.2.1",
+    "@types/jest": "^25.1.4",
+    "@types/react": "^16.9.23",
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.13.0",
+    "ts-jest": "^25.2.1",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "inlineSources": true,
+        "noImplicitAny": false,
+        "module": "ES2015",
+        "moduleResolution": "Node",
+        "target": "ES2015",
+        "jsx": "react",
+        "alwaysStrict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "noEmitHelpers": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmitOnError": true,
+        "outDir": "dist-esm",
+        "rootDir": "src"
+    },
+    "include": [
+      "./src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      ".npm"
+    ]
+}
